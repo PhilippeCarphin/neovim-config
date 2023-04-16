@@ -1,0 +1,6 @@
+[submodule "pack/vendor/start/molokai"]
+	path = pack/vendor/start/molokai
+	url = git@github.com:tomasr/molokai
+[submodule "molokai"]
+	path = molokai
+	url = ./pack/vendor/start/molokai
