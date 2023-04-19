@@ -55,5 +55,12 @@ return require('packer').startup(function(use)
     }
 
     use("farmergreg/vim-lastplace")
+    use {
+        'nvim-orgmode/orgmode', config = function()
+            local org = require('orgmode')
+            org.setup_ts_grammar()
+            org.setup{}
+        end
+    }
 end)
 
