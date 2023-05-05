@@ -66,5 +66,6 @@ return require('packer').startup(function(use)
     use('eandrju/cellular-automaton.nvim')
     use('ntpeters/vim-better-whitespace')
     use('ryanpcmcquen/true-monochrome_vim')
+    use('powerman/vim-plugin-AnsiEsc')
 end)
 
