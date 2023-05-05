@@ -22,6 +22,7 @@ return require('packer').startup(function(use)
 
 	use("nvim-treesitter/nvim-treesitter", {run = ":TSUpdate"})
 	use("nvim-treesitter/playground")
+    use("tomasr/molokai")
 
 	use("theprimeagen/harpoon")
 	use("mbbill/undotree")
@@ -62,5 +63,8 @@ return require('packer').startup(function(use)
             org.setup{}
         end
     }
+    use('eandrju/cellular-automaton.nvim')
+    use('ntpeters/vim-better-whitespace')
+    use('ryanpcmcquen/true-monochrome_vim')
 end)
 
